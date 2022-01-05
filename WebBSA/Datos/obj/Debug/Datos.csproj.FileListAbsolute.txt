@@ -1,0 +1,16 @@
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Datos\bin\Debug\Datos.dll
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Datos\bin\Debug\Datos.pdb
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.dll
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.pdb
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.dll
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.pdb
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\bin\Debug\Datos.dll
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\bin\Debug\Datos.pdb
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\bin\Debug\Entidades.dll
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Datos\bin\Debug\Entidades.pdb
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.dll
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Datos\obj\Debug\Datos.pdb

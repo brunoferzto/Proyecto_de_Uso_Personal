@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{73B3138B-F35D-4C95-ABBE-8191FFAA69D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{9265A166-59D9-4CA8-BB75-D1C3142050CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica\Logica.csproj", "{D32DE7F9-45E2-4C91-B2D4-2DC0EF61621F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73B3138B-F35D-4C95-ABBE-8191FFAA69D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B3138B-F35D-4C95-ABBE-8191FFAA69D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B3138B-F35D-4C95-ABBE-8191FFAA69D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B3138B-F35D-4C95-ABBE-8191FFAA69D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9265A166-59D9-4CA8-BB75-D1C3142050CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9265A166-59D9-4CA8-BB75-D1C3142050CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9265A166-59D9-4CA8-BB75-D1C3142050CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9265A166-59D9-4CA8-BB75-D1C3142050CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32DE7F9-45E2-4C91-B2D4-2DC0EF61621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32DE7F9-45E2-4C91-B2D4-2DC0EF61621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32DE7F9-45E2-4C91-B2D4-2DC0EF61621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32DE7F9-45E2-4C91-B2D4-2DC0EF61621F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0596389-E406-4608-8F0A-2033DAAA69DE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Entidades\bin\Debug\Entidades.dll
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Entidades\bin\Debug\Entidades.pdb
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.dll
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.pdb
+F:\RESPALDOFORMATEO\web BSA\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.dll
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Entidades\bin\Debug\Entidades.dll
+C:\Users\Bruno.000\Desktop\ProyectoBSA 12032020\WebBSA\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Entidades\bin\Debug\Entidades.dll
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.dll
+C:\Users\Bruno\Documents\ProyectoBSA 12032020\WebBSA\Entidades\obj\Debug\Entidades.pdb
