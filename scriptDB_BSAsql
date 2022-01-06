@@ -21,8 +21,8 @@ go
 Create Table Usuarios
 (
 NickName varchar (15) primary key,
-Contraseña varchar (15) not null check ((len([Contraseña])>(5) AND [Contraseña] like '%[0-9]%' 
-AND [Contraseña] <> Lower([Contraseña]) COLLATE Latin1_General_CS_AI)),
+ContraseÃ±a varchar (15) not null check ((len([ContraseÃ±a])>(5) AND [ContraseÃ±a] like '%[0-9]%' 
+AND [ContraseÃ±a] <> Lower([ContraseÃ±a]) COLLATE Latin1_General_CS_AI)),
 Activo bit not null Default (1)
 )
 --REGISTRO DE LOGUEO HISTORICO XML - NICKNAME,TIPO DE USUARIO,FECHA LOGUEO, acciones en db. 
@@ -126,7 +126,7 @@ Id_Commpetencia int primary key identity,
 Temporada int not null foreign key references Temporadas (Id_Temporada),
 TipodeTorneo varchar not null check (TipodeTorneo = 'BSA' or TipodeTorneo = 'Mundial' or TipodeTorneo = 'Copa' or TipodeTorneo = 'No Oficial' or TipodeTorneo = 'Oficial Menor Equipos' or  TipodeTorneo = 'Oficial Menor Selecciones' or  TipodeTorneo = 'Otro' ), --1 BSA, 2 Copa, 3 Mundial, 4 Trofeo Menor, 5 Otros Trofeos
 Nombre varchar (30) not null, 
-Numero int not null, --¿¿?x algo  lo puse ver antes d orrar
+Numero int not null, --Â¿Â¿?x algo  lo puse ver antes d orrar
 Trofeo varchar (255),
 Descripcion varchar (500), 
 Estado bit default (1), --no se le pueden agregar mas fases a una competencia ya finalizada
@@ -155,14 +155,14 @@ Create Table Subfases
 (
 Id_Gru int primary key identity (1,1),
 Fase  int not null foreign key references  Fases (Id_Fase), 
-NombreSubfase varchar (20) not null, -- El usuario elige Eliminatoria o Fase de Grupos + el número automatico O TAL Vez concatenar.
+NombreSubfase varchar (20) not null, -- El usuario elige Eliminatoria o Fase de Grupos + el nÃºmero automatico O TAL Vez concatenar.
 Tipo varchar check (Tipo = 'Eliminatoria' or Tipo = 'Grupo'), -- por si hay alguna que se agrega despues.
 Numero int not null,
 RespetaReglas bit Default (1)-- al agregar una subfase a mano recordarlo
 )
 go
 
-Create Table ReglaxPosición -- PARA CADA FASE o SUBFASE SI NO RESPETA REGLAS
+Create Table ReglaxPosiciÃ³n -- PARA CADA FASE o SUBFASE SI NO RESPETA REGLAS
 (
 Id_RegxPos int primary key identity,
 Fase int  foreign key references Fases (Id_Fase),--ambas nulleable
@@ -393,7 +393,7 @@ Create Table Palmares
 (
 Id_Pal int not null primary key identity,
 Competencia INT not null foreign key references Competencias (Id_Commpetencia), -- NO se puede a una no finalizada.
-Nombre varchar not null Check (Nombre = 'Campeón' or Nombre = 'Sub-Campeón'),
+Nombre varchar not null Check (Nombre = 'CampeÃ³n' or Nombre = 'Sub-CampeÃ³n'),
 Equipo int not null,
 Competidor varchar (20) not null,
 foreign key (Competidor,Equipo) references Utilizan (Competidor,Equipo)
@@ -406,7 +406,7 @@ Create Table Premios
 (
 Id_Premio int primary key identity(1,1),
 Competencia INT not null foreign key references Competencias (Id_Commpetencia),
-Motivo varchar (70) not null, -- ej Campeón TaLA de cruces temporada xx
+Motivo varchar (70) not null, -- ej CampeÃ³n TaLA de cruces temporada xx
 Competidor varchar (20) foreign key references Competidores (Nombre),
 Fecha date not null Default (GetDate()),
 Activo bit not null Default (0),-- usado o no
